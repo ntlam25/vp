@@ -1,0 +1,50 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>@ViewData["Title"]</title>
+	<!-- css -->
+	<link href="~/admin/css/bootstrap.min.css" rel="stylesheet">
+	
+	<link href="~/admin/css/styles.css" rel="stylesheet">
+	<!--Icons-->
+	<script src="~/admin/js/lumino.glyphs.js"></script>
+	<link rel="stylesheet" href="~/admin/Awesome/css/all.css">
+</head>
+<body>
+	<!-- header -->
+	@{
+		var partialHeader = await Html.PartialAsync("~/Views/Admin/Shared/Header.cshtml");
+	}
+	@partialHeader
+	
+	<!-- header -->
+	<!-- sidebar left-->
+	<!--<partial name="Sidebar" />-->
+	@{
+		var partialSidebar = await Html.PartialAsync("~/Views/Admin/Shared/Sidebar.cshtml");
+	}
+	@partialSidebar
+	<!--/. end sidebar left-->
+
+	<!--main-->
+	
+	@RenderBody()
+	<!--end main-->
+
+	<!-- javascript -->
+	<script src="~/admin/js/jquery-1.11.1.min.js"></script>
+	<script src="~/admin/js/bootstrap.min.js"></script>
+	<script src="~/admin/js/chart.min.js"></script>
+	<script src="~/admin/js/chart-data.js"></script>
+
+</body>
+
+</html>
