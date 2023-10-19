@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TLam\\Source\\Repos\\ntlam25\\vp\\vphone.csproj": {}
+    "C:\\Users\\TLam\\source\\repos\\ntlam25\\vp2\\vphone.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TLam\\Source\\Repos\\ntlam25\\vp\\vphone.csproj": {
+    "C:\\Users\\TLam\\source\\repos\\ntlam25\\vp2\\vphone.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TLam\\Source\\Repos\\ntlam25\\vp\\vphone.csproj",
+        "projectUniqueName": "C:\\Users\\TLam\\source\\repos\\ntlam25\\vp2\\vphone.csproj",
         "projectName": "vphone",
-        "projectPath": "C:\\Users\\TLam\\Source\\Repos\\ntlam25\\vp\\vphone.csproj",
+        "projectPath": "C:\\Users\\TLam\\source\\repos\\ntlam25\\vp2\\vphone.csproj",
         "packagesPath": "C:\\Users\\TLam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TLam\\Source\\Repos\\ntlam25\\vp\\obj\\",
+        "outputPath": "C:\\Users\\TLam\\source\\repos\\ntlam25\\vp2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TLam\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,7 +52,7 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.14, )"
+              "version": "[6.0.23, )"
             }
           },
           "imports": [
